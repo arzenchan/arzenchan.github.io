@@ -2,7 +2,7 @@
 //Nav bar generator.Copied from Index page into a HTML to JS converter
 //
 
-document.write("<div class=\"w3-sidebar menu\" style=\"width:350px; padding:50px; border-style: none none none none; border-right-color:grey; border-right-width:20px\">");
+document.write("<div class=\"menu\" style=\"float:left; width:350px; padding:50px; border-style: none none none none; border-right-color:grey; border-right-width:20px\">");
 document.write("  <a href=\"index.html\"><h1 style=\"line-height:90%; font-size:50px;\">");
 document.write("    Arzen <br>");
 document.write("    Chan");

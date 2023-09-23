@@ -45,9 +45,18 @@ a:active {
   text-decoration: none;
 }
 
+.projects{
+  table-layout: fixed;
+  width: 100%;
+}
+
 .container{
   padding:150px;
   padding-top:100px;
+}
+
+.proj-entry{
+  
 }
 
 .img-circ{
