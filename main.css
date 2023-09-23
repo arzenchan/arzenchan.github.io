@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: Public Sans;
   src: url(fonts/Public_Sans/static/PublicSans-Regular.ttf);
@@ -56,4 +58,11 @@ a:active {
   margin-left:350px;
   margin-right:150px;
   padding:50px;
+}
+
+.inline-button{
+  color:#FEFEFA;
+  background-color:grey;
+  padding: 5px;
+  border-radius: 5px;
 }

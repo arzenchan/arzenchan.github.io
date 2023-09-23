@@ -5,6 +5,15 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="main.css">
   <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="arytrrxak1oyr1f"></script>
+  
+  <!--script for hiding the loading text-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#loadtxt").hide().delay(600).fadeIn(600).delay(2000).fadeOut(600);
+  });
+  </script>
+  
 </head>
 <body>
   <div class="container">
@@ -15,7 +24,7 @@
     <div class="body">
       <div>
         <h1>
-          Résumé
+          Résumé <p id="loadtxt" style="display:inline; color:gray">It may take a moment to load...</p>
         </h1>
         <div style="background-color=gray">
         <p>
@@ -23,6 +32,11 @@
             href="https://www.dropbox.com/scl/fi/ekkrkiab9wqzxgnem351w/Arzen-Chan-Resume-Aug-2023-V1.1.pdf?rlkey=2o51z5bfmwvfcakr02yoin3zw&dl=0"
             class="dropbox-embed" 
           ></a>
+          <br>If the embeded PDF does not load, you can view my résume by clicking 
+          <a 
+            href="https://www.dropbox.com/scl/fi/ekkrkiab9wqzxgnem351w/Arzen-Chan-Resume-Aug-2023-V1.1.pdf?rlkey=2o51z5bfmwvfcakr02yoin3zw&dl=0"
+            class="inline-button"
+          >here.</a>
         </p>
         </div>
       </div>
