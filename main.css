@@ -63,6 +63,12 @@ a:active {
   border-radius: 50%;
 }
 
+.img-sqr{
+  width: 400px; 
+  height: 400px; 
+  object-fit: contain;
+}
+
 .body{
   margin-left:350px;
   margin-right:150px;
