@@ -14,7 +14,7 @@ document.write("  <h3>");
 document.write("    <a href=\"index.html\">About Me </a><br>");
 document.write("    <a href=\"resume.html\">R&#233sum&#233</a><br>");
 document.write("    <a href=\"projects.html\">Projects</a><br>");
-document.write("    <a href=\"misc.html\">Miscellanious</a><br>");
+document.write("    <a href=\"misc.html\">Miscellaneous</a><br>");
 document.write("  </h3>");
 document.write("  <p>");
 document.write("  Contact:<br>");
