@@ -18,6 +18,6 @@ document.write("    <a href=\"arzenchan.com/misc.html\">Miscellaneous</a><br>");
 document.write("  </h3>");
 document.write("  <p>");
 document.write("  Contact:<br>");
-document.write("  <a href = \"mailto: arzenchanemail@gmail.com\">arzenchanemail@gmail.com</a>");
+document.write("  <a href = \"mailto: arzen.chan@mail.mcgill.ca\">arzen.chan@mail.mcgill.ca</a>");
 document.write("  647-890-1998</p>");
 document.write("</div>");
